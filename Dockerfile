@@ -5,6 +5,7 @@ ADD ./src src/
 
 RUN mvn clean package
 
+echo "yes"
 
 From openjdk:17.0-jdk
 
